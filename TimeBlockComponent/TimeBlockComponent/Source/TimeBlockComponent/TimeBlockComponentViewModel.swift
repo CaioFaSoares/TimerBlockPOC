@@ -5,7 +5,7 @@
 //  Created by Gilberto Magno on 29/07/24.
 //
 
-import Foundation
+import SwiftUICore
 
 @Observable
 class TimeBlockComponentViewModel {

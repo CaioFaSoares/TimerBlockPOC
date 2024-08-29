@@ -10,12 +10,18 @@
 		0F79CB132C51BD50007757F9 /* TimeBlockComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB122C51BD50007757F9 /* TimeBlockComponentApp.swift */; };
 		0F79CB172C51BD52007757F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F79CB162C51BD52007757F9 /* Assets.xcassets */; };
 		0F79CB1B2C51BD52007757F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F79CB1A2C51BD52007757F9 /* Preview Assets.xcassets */; };
-		0F79CB222C51BD71007757F9 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB212C51BD71007757F9 /* Day.swift */; };
-		0F79CB242C51BD8E007757F9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB232C51BD8E007757F9 /* Event.swift */; };
+		0F79CB222C51BD71007757F9 /* BlockComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB212C51BD71007757F9 /* BlockComponent.swift */; };
 		0F79CB2F2C56F95C007757F9 /* TimeBlockComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB2E2C56F95C007757F9 /* TimeBlockComponentView.swift */; };
 		0F79CB312C57A224007757F9 /* TimeBlockComponentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB302C57A224007757F9 /* TimeBlockComponentViewModel.swift */; };
 		0F79CB332C57A2C6007757F9 /* TimerBlockCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB322C57A2C6007757F9 /* TimerBlockCardViewModel.swift */; };
 		0F79CB352C57A2EE007757F9 /* TimerBlockCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79CB342C57A2EE007757F9 /* TimerBlockCard.swift */; };
+		D6C67D792C811AE800EDD0EC /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D782C811AE200EDD0EC /* Day.swift */; };
+		D6C67D7B2C811B4300EDD0EC /* WeekDayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D7A2C811B3E00EDD0EC /* WeekDayType.swift */; };
+		D6C67D7D2C811B7B00EDD0EC /* DayInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D7C2C811B7600EDD0EC /* DayInterface.swift */; };
+		D6C67D7F2C811BAD00EDD0EC /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D7E2C811BAA00EDD0EC /* WeekDay.swift */; };
+		D6C67D822C811BF700EDD0EC /* DateInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D812C811BF300EDD0EC /* DateInterval.swift */; };
+		D6C67D882C811C7900EDD0EC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D872C811C7700EDD0EC /* Event.swift */; };
+		D6C67D8A2C811C8600EDD0EC /* EventInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D892C811C8300EDD0EC /* EventInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +30,18 @@
 		0F79CB162C51BD52007757F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F79CB182C51BD52007757F9 /* TimeBlockComponent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeBlockComponent.entitlements; sourceTree = "<group>"; };
 		0F79CB1A2C51BD52007757F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0F79CB212C51BD71007757F9 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
-		0F79CB232C51BD8E007757F9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		0F79CB212C51BD71007757F9 /* BlockComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockComponent.swift; sourceTree = "<group>"; };
 		0F79CB2E2C56F95C007757F9 /* TimeBlockComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBlockComponentView.swift; sourceTree = "<group>"; };
 		0F79CB302C57A224007757F9 /* TimeBlockComponentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBlockComponentViewModel.swift; sourceTree = "<group>"; };
 		0F79CB322C57A2C6007757F9 /* TimerBlockCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBlockCardViewModel.swift; sourceTree = "<group>"; };
 		0F79CB342C57A2EE007757F9 /* TimerBlockCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBlockCard.swift; sourceTree = "<group>"; };
+		D6C67D782C811AE200EDD0EC /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		D6C67D7A2C811B3E00EDD0EC /* WeekDayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayType.swift; sourceTree = "<group>"; };
+		D6C67D7C2C811B7600EDD0EC /* DayInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayInterface.swift; sourceTree = "<group>"; };
+		D6C67D7E2C811BAA00EDD0EC /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
+		D6C67D812C811BF300EDD0EC /* DateInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInterval.swift; sourceTree = "<group>"; };
+		D6C67D872C811C7700EDD0EC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D6C67D892C811C8300EDD0EC /* EventInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +78,7 @@
 				0F79CB162C51BD52007757F9 /* Assets.xcassets */,
 				0F79CB182C51BD52007757F9 /* TimeBlockComponent.entitlements */,
 				0F79CB192C51BD52007757F9 /* Preview Content */,
-				0F79CB212C51BD71007757F9 /* Day.swift */,
-				0F79CB232C51BD8E007757F9 /* Event.swift */,
-				0F79CB2E2C56F95C007757F9 /* TimeBlockComponentView.swift */,
-				0F79CB302C57A224007757F9 /* TimeBlockComponentViewModel.swift */,
-				0F79CB322C57A2C6007757F9 /* TimerBlockCardViewModel.swift */,
-				0F79CB342C57A2EE007757F9 /* TimerBlockCard.swift */,
+				D6C67D8B2C811CAD00EDD0EC /* Source */,
 			);
 			path = TimeBlockComponent;
 			sourceTree = "<group>";
@@ -82,6 +89,81 @@
 				0F79CB1A2C51BD52007757F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6C67D772C811ADA00EDD0EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D862C811C6A00EDD0EC /* Event */,
+				D6C67D852C811C6300EDD0EC /* Days */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6C67D802C811BE900EDD0EC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D812C811BF300EDD0EC /* DateInterval.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D6C67D832C811C3800EDD0EC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D842C811C4100EDD0EC /* Core Components */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D6C67D842C811C4100EDD0EC /* Core Components */ = {
+			isa = PBXGroup;
+			children = (
+				0F79CB212C51BD71007757F9 /* BlockComponent.swift */,
+			);
+			path = "Core Components";
+			sourceTree = "<group>";
+		};
+		D6C67D852C811C6300EDD0EC /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D782C811AE200EDD0EC /* Day.swift */,
+				D6C67D7C2C811B7600EDD0EC /* DayInterface.swift */,
+				D6C67D7E2C811BAA00EDD0EC /* WeekDay.swift */,
+				D6C67D7A2C811B3E00EDD0EC /* WeekDayType.swift */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		D6C67D862C811C6A00EDD0EC /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D872C811C7700EDD0EC /* Event.swift */,
+				D6C67D892C811C8300EDD0EC /* EventInterface.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		D6C67D8B2C811CAD00EDD0EC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D832C811C3800EDD0EC /* Components */,
+				D6C67D802C811BE900EDD0EC /* Extension */,
+				D6C67D772C811ADA00EDD0EC /* Models */,
+				D6C67D8D2C811CEE00EDD0EC /* TimeBlockComponent */,
+				0F79CB322C57A2C6007757F9 /* TimerBlockCardViewModel.swift */,
+				0F79CB342C57A2EE007757F9 /* TimerBlockCard.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D6C67D8D2C811CEE00EDD0EC /* TimeBlockComponent */ = {
+			isa = PBXGroup;
+			children = (
+				0F79CB2E2C56F95C007757F9 /* TimeBlockComponentView.swift */,
+				0F79CB302C57A224007757F9 /* TimeBlockComponentViewModel.swift */,
+			);
+			path = TimeBlockComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,13 +236,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F79CB242C51BD8E007757F9 /* Event.swift in Sources */,
-				0F79CB222C51BD71007757F9 /* Day.swift in Sources */,
+				D6C67D8A2C811C8600EDD0EC /* EventInterface.swift in Sources */,
+				0F79CB222C51BD71007757F9 /* BlockComponent.swift in Sources */,
+				D6C67D7D2C811B7B00EDD0EC /* DayInterface.swift in Sources */,
+				D6C67D7F2C811BAD00EDD0EC /* WeekDay.swift in Sources */,
+				D6C67D822C811BF700EDD0EC /* DateInterval.swift in Sources */,
+				D6C67D792C811AE800EDD0EC /* Day.swift in Sources */,
 				0F79CB312C57A224007757F9 /* TimeBlockComponentViewModel.swift in Sources */,
 				0F79CB2F2C56F95C007757F9 /* TimeBlockComponentView.swift in Sources */,
 				0F79CB352C57A2EE007757F9 /* TimerBlockCard.swift in Sources */,
 				0F79CB132C51BD50007757F9 /* TimeBlockComponentApp.swift in Sources */,
+				D6C67D7B2C811B4300EDD0EC /* WeekDayType.swift in Sources */,
 				0F79CB332C57A2C6007757F9 /* TimerBlockCardViewModel.swift in Sources */,
+				D6C67D882C811C7900EDD0EC /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimeBlockComponent/Preview Content\"";
-				DEVELOPMENT_TEAM = B5BH4949Y8;
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -328,7 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimeBlockComponent/Preview Content\"";
-				DEVELOPMENT_TEAM = B5BH4949Y8;
+				DEVELOPMENT_TEAM = MCC2B4P5MZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

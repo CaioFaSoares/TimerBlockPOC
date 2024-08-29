@@ -2,19 +2,10 @@
 //  Event.swift
 //  TimeBlockComponent
 //
-//  Created by Gilberto Magno on 24/07/24.
+//  Created by Caio Soares on 29/08/24.
 //
 
 import Foundation
-import SwiftUI
-
-
-protocol EventInterface {
-    var dateInterval: DateInterval { get set }
-    var day: Day { get set }
-    
-    var delegate: TimeBlockDelegate? { get set }
-}
 
 @Observable
 class Event: Hashable, Identifiable, EventInterface {

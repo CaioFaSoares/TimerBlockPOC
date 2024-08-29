@@ -22,6 +22,9 @@
 		D6C67D822C811BF700EDD0EC /* DateInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D812C811BF300EDD0EC /* DateInterval.swift */; };
 		D6C67D882C811C7900EDD0EC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D872C811C7700EDD0EC /* Event.swift */; };
 		D6C67D8A2C811C8600EDD0EC /* EventInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D892C811C8300EDD0EC /* EventInterface.swift */; };
+		D6C67D922C81246500EDD0EC /* NavigationRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D912C81246500EDD0EC /* NavigationRootView.swift */; };
+		D6C67D942C8125BF00EDD0EC /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D932C8125BA00EDD0EC /* HeaderComponent.swift */; };
+		D6C67D972C8126A200EDD0EC /* TimeBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67D962C8126A200EDD0EC /* TimeBlocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		D6C67D812C811BF300EDD0EC /* DateInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInterval.swift; sourceTree = "<group>"; };
 		D6C67D872C811C7700EDD0EC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		D6C67D892C811C8300EDD0EC /* EventInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInterface.swift; sourceTree = "<group>"; };
+		D6C67D912C81246500EDD0EC /* NavigationRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRootView.swift; sourceTree = "<group>"; };
+		D6C67D932C8125BA00EDD0EC /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		D6C67D962C8126A200EDD0EC /* TimeBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBlocks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,8 @@
 		D6C67D832C811C3800EDD0EC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D6C67D8E2C81240000EDD0EC /* TimeBlockCard */,
+				D6C67D8D2C811CEE00EDD0EC /* TimeBlockComponent */,
 				D6C67D842C811C4100EDD0EC /* Core Components */,
 			);
 			path = Components;
@@ -119,6 +127,7 @@
 		D6C67D842C811C4100EDD0EC /* Core Components */ = {
 			isa = PBXGroup;
 			children = (
+				D6C67D932C8125BA00EDD0EC /* HeaderComponent.swift */,
 				0F79CB212C51BD71007757F9 /* BlockComponent.swift */,
 			);
 			path = "Core Components";
@@ -147,12 +156,10 @@
 		D6C67D8B2C811CAD00EDD0EC /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D6C67D8F2C81242700EDD0EC /* Views */,
 				D6C67D832C811C3800EDD0EC /* Components */,
 				D6C67D802C811BE900EDD0EC /* Extension */,
 				D6C67D772C811ADA00EDD0EC /* Models */,
-				D6C67D8D2C811CEE00EDD0EC /* TimeBlockComponent */,
-				0F79CB322C57A2C6007757F9 /* TimerBlockCardViewModel.swift */,
-				0F79CB342C57A2EE007757F9 /* TimerBlockCard.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -164,6 +171,40 @@
 				0F79CB302C57A224007757F9 /* TimeBlockComponentViewModel.swift */,
 			);
 			path = TimeBlockComponent;
+			sourceTree = "<group>";
+		};
+		D6C67D8E2C81240000EDD0EC /* TimeBlockCard */ = {
+			isa = PBXGroup;
+			children = (
+				0F79CB322C57A2C6007757F9 /* TimerBlockCardViewModel.swift */,
+				0F79CB342C57A2EE007757F9 /* TimerBlockCard.swift */,
+			);
+			path = TimeBlockCard;
+			sourceTree = "<group>";
+		};
+		D6C67D8F2C81242700EDD0EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D952C81267A00EDD0EC /* TimeBlocks */,
+				D6C67D902C81243500EDD0EC /* NavigationRoot */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6C67D902C81243500EDD0EC /* NavigationRoot */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D912C81246500EDD0EC /* NavigationRootView.swift */,
+			);
+			path = NavigationRoot;
+			sourceTree = "<group>";
+		};
+		D6C67D952C81267A00EDD0EC /* TimeBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C67D962C8126A200EDD0EC /* TimeBlocks.swift */,
+			);
+			path = TimeBlocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +283,14 @@
 				D6C67D7F2C811BAD00EDD0EC /* WeekDay.swift in Sources */,
 				D6C67D822C811BF700EDD0EC /* DateInterval.swift in Sources */,
 				D6C67D792C811AE800EDD0EC /* Day.swift in Sources */,
+				D6C67D942C8125BF00EDD0EC /* HeaderComponent.swift in Sources */,
 				0F79CB312C57A224007757F9 /* TimeBlockComponentViewModel.swift in Sources */,
+				D6C67D972C8126A200EDD0EC /* TimeBlocks.swift in Sources */,
 				0F79CB2F2C56F95C007757F9 /* TimeBlockComponentView.swift in Sources */,
 				0F79CB352C57A2EE007757F9 /* TimerBlockCard.swift in Sources */,
 				0F79CB132C51BD50007757F9 /* TimeBlockComponentApp.swift in Sources */,
 				D6C67D7B2C811B4300EDD0EC /* WeekDayType.swift in Sources */,
+				D6C67D922C81246500EDD0EC /* NavigationRootView.swift in Sources */,
 				0F79CB332C57A2C6007757F9 /* TimerBlockCardViewModel.swift in Sources */,
 				D6C67D882C811C7900EDD0EC /* Event.swift in Sources */,
 			);

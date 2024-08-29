@@ -33,8 +33,8 @@ struct TimeBlockComponentView<Header: View,
             .overlay {
                     GeometryReader { reader in
                         ForEach($viewmodel.events, id: \.day) { $event in
-                            var event = event
-                            event.delegate = self.viewmodel 
+                            var thisEvent = event
+                            let _ = thisEvent.delegate = self.viewmodel
                             TimerBlockCard(viewmodel: .init(event: event)) {
                                 RoundedRectangle(cornerRadius: 12)
                                     .fill(Color.black.opacity(0.25))
